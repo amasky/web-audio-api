@@ -1,0 +1,75 @@
+/* for musical sharp and flat notation */
+@fontface {
+  font-family: 'Noto Sans Symbols';
+  src: url(/static/fonts/NotoSansSymbols-Regular.ttf);
+  }
+
+body {
+  background: white;
+  text-align: center;
+  font-family: 'Noto Sans Symbols', 'Noto Sans', serif;
+}
+
+.main {
+  width: 480px;
+  height: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main a {
+  display: inline-block;
+  position: absolute;
+}
+
+.main a span {
+	display: inline-block;
+  border: 1px solid;
+	border-radius: 50%;
+	text-decoration: none;
+	text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.main .outer a span {
+  height: 60px;
+  width: 60px;
+	line-height: 60px;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.main .inner a span {
+  height: 40px;
+  width: 40px;
+	line-height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.main .transpose a {
+  border: 1px solid;
+  border-radius: 25%;
+  text-decoration: none;
+	text-align: center;
+  font-weight: bold;
+  background-color: gray;
+  color: white;
+  width: 36px;
+  height: 36px;
+}
+
+.main .transpose #sharp {
+  top: 49%;
+  left: 51%;
+	line-height: 36px;
+  font-size: 20px;
+}
+
+.main .transpose #flat {
+  top: 49%;
+  left: 42%;
+	line-height: 32px;
+  font-size: 28px;
+}
