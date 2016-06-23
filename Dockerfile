@@ -1,2 +1,2 @@
 FROM python:3-onbuild
-CMD ["python", "./myapp.py"]
+CMD ["python", "./index.py"]
